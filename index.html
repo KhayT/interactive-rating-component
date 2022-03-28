@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" defer src="script.js"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="content main-content">
+      <div class="rating--star"></div>
+      <h1 class="rating--heading">How did we do?</h1>
+
+      <p class="rating--text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <div class="rating--btn">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn active">4</button>
+        <button class="btn">5</button>
+      </div>
+
+      <button class="btn-submit">SUBMIT</button>
+    </main>
+
+    <section class="content thank--you_card hidden">
+      <div class="score--board_img"></div>
+
+      <h4 class="score--board">You selected 4 out of 5</h4>
+      <h1 class="score--board_text">Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </section>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/KhayT">Khadijah</a>.
+    </footer>
+  </body>
+</html>
